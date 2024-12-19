@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 83fa99cade6e10b52ce88d246088058a6de70fc0 hellopratik <hellopratik@localhost.localdomain> 1734617808 +0530	fetch --quiet origin --recurse-submodules=no --tags +refs/heads/vic:refs/remotes/origin/vic +refs/tags/*:refs/tags/*: storing head

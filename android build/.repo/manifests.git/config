@@ -1,0 +1,23 @@
+[core]
+	repositoryFormatVersion = 1
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/Evolution-X/manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[manifest]
+	platform = auto
+[repo]
+	git-lfs = true
+	existingprojectcount = 0
+	newprojectcount = 1500
+[extensions]
+	preciousObjects = true
+[branch "default"]
+	remote = origin
+	merge = refs/heads/vic
+[user]
+	name = helllopratik
+	email = pratikgondane07@gmail.com

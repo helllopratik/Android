@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 b289f8302316c04d06127393ae85ec2b3a24bfcc helllopratik <pratikgondane07@gmail.com> 1734617866 +0530	fetch --quiet --progress /home/hellopratik/Desktop/Android/android build/.repo/projects/bootable/libbootloader.git/clone.bundle +refs/heads/*:refs/remotes/aosp/* +refs/tags/*:refs/tags/*: storing head

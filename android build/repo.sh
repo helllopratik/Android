@@ -8,7 +8,8 @@ echo again !!!!!!
 
 # Initialize local repository
 #repo init -u https://android.googlesource.com/platform/manifest
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+#repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 repo sync
 repo sync -j1 --fail-fast
 repo sync -c -j8
