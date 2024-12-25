@@ -1,0 +1,6 @@
+# Run to prepare our devices list
+$ . build/envsetup.sh
+# ... now run
+$ brunch devicecodename
+
+https://github.com/crdroidandroid/android
