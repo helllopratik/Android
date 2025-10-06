@@ -11,7 +11,9 @@ echo again !!!!!!
 #repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 #repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 
-repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
+#repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
+
+repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 
 repo sync
 repo sync -j1 --fail-fast
@@ -19,6 +21,6 @@ repo sync -c -j8
 repo sync --force-sync
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-
+./repo.sh
 
 #https://github.com/Evolution-X/manifest
